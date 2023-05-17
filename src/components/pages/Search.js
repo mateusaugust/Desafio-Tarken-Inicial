@@ -45,7 +45,7 @@ function Search (){
                 <div className={styles.divPesquisa}>
                 {filmes.map((filme) =>{
                     return(
-                        <CardSearch {...filme}/>   
+                        <CardSearch key={filme.id} {...filme}/>   
                     )
                     })
 
