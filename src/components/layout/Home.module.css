@@ -1,0 +1,18 @@
+
+
+.divPesquisa{ 
+    padding-left: 7.2%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y:auto; 
+    margin-top: 0.2vw;
+    width: 90vw;
+    height: 35vw;
+ }
+ 
+ .divPesquisa::-webkit-scrollbar {
+     width: 0.2em;
+     height: 0.2em;
+   }
+
+   

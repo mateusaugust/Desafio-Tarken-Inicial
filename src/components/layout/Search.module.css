@@ -1,0 +1,54 @@
+.divPosition{
+    margin-left: 20vw;
+    height: 35vw;
+    width: 64vw;
+}
+
+.title{
+    font-size: 25px;
+}
+
+
+.searchBar{
+    display: absolute;
+    font-family: 'Inter';
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 30px;
+    width: 442px;
+    outline: none;
+    text-align: center;
+
+}
+
+.bottonSearch{
+    background-color: white;
+    border: none;
+    height: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 35px;
+}
+
+.centerDiv{
+    text-align: center;
+    margin-top: 0.5vw;
+    
+}
+
+.divPesquisa{ 
+   
+   display: flex;
+   flex-wrap: wrap;
+   text-align: center;
+   overflow-y:auto; 
+   margin-top: 0.2vw;
+   width: 64vw;
+   height: 29vw;
+}
+
+.divPesquisa::-webkit-scrollbar {
+    width: 0.2em;
+    height: 0.2em;
+  }
