@@ -30,7 +30,7 @@ function Library(){
    }
 
    useEffect(()=>{
-        teste().then(response=> {console.log(response); setFilmes(response)})
+        teste().then(response=> {setFilmes(response)})
     },[])
 
 
