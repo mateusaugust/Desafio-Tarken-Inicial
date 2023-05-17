@@ -1,0 +1,42 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+
+  
+
+.moovy{
+    display: flex;
+    color: #ed9121;
+    font-size: 30px;
+    margin-top: 19px;
+
+}
+
+
+.list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 710px;
+    margin-top: 30px;
+    font-size: 16px;
+    
+    
+}
+
+.item{
+    margin-right: 40px;
+}
+
+.item a{
+    color: black;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: #ed9121;
+}
+
