@@ -26,7 +26,7 @@ function Home(){
         
         {filmes.map(filme =>{
             return(
-              <CardFilmes {...filme}/>
+              <CardFilmes key={filme.id} {...filme}/>
             )
         })
 
